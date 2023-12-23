@@ -29,7 +29,7 @@ public class ContactController {
         final String hostAddress = localHost.getHostAddress();
         StringBuilder info = new StringBuilder();
         info.append("----------------------------------").append(lineSeparator);
-        info.append("Contacts API : ").append("Version ").append("V2").append(lineSeparator);
+        info.append("Contacts API : ").append("Version ").append("V3").append(lineSeparator);
         info.append("Host : ").append(hostName).append(lineSeparator);
         info.append("IP : ").append(hostAddress).append(lineSeparator);
         info.append("----------------------------------").append(lineSeparator);
